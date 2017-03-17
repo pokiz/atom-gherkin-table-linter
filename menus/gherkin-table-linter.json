@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle gherkin-table-linter",
+        "command": "gherkin-table-linter:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "gherkin-table-linter",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "gherkin-table-linter:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
